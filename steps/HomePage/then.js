@@ -1,7 +1,7 @@
 const Then = require('cucumber').Then;
 //var assert = require('assert').assert;
 //const assert = require('assert').assert;
-let assert = require('assert');
+//let assert = require('assert');
 
 console.log('then');
 
