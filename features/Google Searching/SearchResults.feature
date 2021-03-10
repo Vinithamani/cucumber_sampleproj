@@ -1,12 +1,13 @@
 # title.feature
-# Feature: Title check
+Feature: Title check
 #   I should be able to go to a website
 #   and check its title
 
 #1: Scenario 1: To get the title  of the Google page
-   Scenario: Get the title of webpage
-  Given I go to the website "http://www.google.com"
-  Then I expect the title of the page "Google"
+
+  Scenario: Get the title of webpage  
+    Given I go to the website "http://www.google.com"
+    Then I expect the title of the page "Google"
 
 
 #Scenario 2: To check search option in Google
